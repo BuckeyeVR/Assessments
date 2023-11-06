@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="i2721af77ae1fb0088e93d4dba6d4ff8a" title="Gauss's Law Ideas">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="i2de58a3c768c9c6bdabc2b08db9c8af5" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>1427,2363,6911,3820,5183</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>i69ed0aa4834b5c5e8cc476f7f3e18db3</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Suppose you asked to find the electric field at a point P &amp;nbsp;due to a charged spherical shell with radius R using Gauss's Law and that P is located a distance 2R from the center of the shell. &amp;nbsp;Which of the following Gaussian surfaces would be appropriate to use for Gauss's Law?&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="1427">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img src="https://osu.instructure.com/files/2858837/download?download_frd=1&amp;amp;verifier=r2JPCrO7p0r49R4HLjDW8FdI8QYFgp5h172hcDFe" alt="Outer sphere.png" width="333" height="321"&gt;&lt;/p&gt;
+&lt;p&gt;A spherical shell centered at the origin with radius 2R.&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2363">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img src="https://osu.instructure.com/files/2858933/download?download_frd=1&amp;amp;verifier=TCzHmE8vOP7yR031aaZhj5u6h8gmoKyHHY3hcWk4" alt="Innersphere.png" width="323" height="323"&gt;&lt;/p&gt;
+&lt;p&gt;A spherical shell centered at the origin with a radius slightly bigger than R&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6911">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img src="https://osu.instructure.com/files/2858839/download?download_frd=1&amp;amp;verifier=0BaBgS4dCJRzbMy30KtXLz69CJDCgWuyPuc19blf" alt="Outerring.png" width="355" height="245"&gt;&lt;/p&gt;
+&lt;p&gt;A loop centered at the origin with radius 2R&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3820">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img src="https://osu.instructure.com/files/2858932/download?download_frd=1&amp;amp;verifier=JBgl9MTsXuVRpn4luu9zSjT1KrywXGHExHh4bI35" alt="Innerring.png" width="362" height="254"&gt;&lt;/p&gt;
+&lt;p&gt;A loop centered at the origin with a radius slightly bigger than R.&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5183">
+                <material>
+                  <mattext texttype="text/html">&lt;p&gt;&lt;img src="https://osu.instructure.com/files/2858838/download?download_frd=1&amp;amp;verifier=ztXblZSZPEXhWFcDsPIcrlxidNqzsY7i4LtmNlT3" alt="Outerbox.png" width="338" height="332"&gt;&lt;/p&gt;
+&lt;p&gt;A box centered at the origin and extending out to point P.&lt;/p&gt;</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">1427</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="i10be46b6efc23bf4500dfeaac84d55ce" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8411,3468,438,1062</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>i8c17b93ab09f416bd1058bf0d30509c4</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;Gauss's Law is a mathematical relation between which two quantities?&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8411">
+                <material>
+                  <mattext texttype="text/plain">Electrical flux and charge</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3468">
+                <material>
+                  <mattext texttype="text/plain">Electrical flux and electrical potential</mattext>
+                </material>
+              </response_label>
+              <response_label ident="438">
+                <material>
+                  <mattext texttype="text/plain">Electrical potential and charge</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1062">
+                <material>
+                  <mattext texttype="text/plain">Electric flux and electrical field</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8411</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

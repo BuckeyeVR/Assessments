@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz identifier="i6bc39d420ceaa443381523a895f59d65" xmlns="http://canvas.instructure.com/xsd/cccv1p0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 https://canvas.instructure.com/xsd/cccv1p0.xsd">
+  <title>Form A (VR) Gauss Revised</title>
+  <description>&lt;div class="description user_content teacher-version enhanced"&gt;
+&lt;div class="description user_content teacher-version enhanced"&gt;
+&lt;p&gt;This assessment will ask you questions about physics and math; many will be about the electric field near charged objects, and Gauss's Law. There are quite a few questions (approximately 70), but they are qualitative multiple choice questions, and they go fairly quickly (on the order of ~35 min). Your receive credit for the activity you do here, but your grade in the course does NOT depend on your performance. Please try your best, but don't panic if you don't know how to do something. Just make your best guess.&lt;/p&gt;
+&lt;p&gt;Most of the questions and illustrations will be on this computer screen. However, at one point, you will be asked to look at a visualization in a small virtual reality headset that looks like goggles. You will be directed to use those near the middle of this assessment. If you know that you get vertigo or nausea from virtual reality, please inform the proctor at this time. Please feel free to ask the proctor for assistance with equipment or other concerns at any time, but the proctor will typically NOT answer physics questions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+  <lock_at>2017-04-19T03:59:00</lock_at>
+  <unlock_at>2017-03-02T05:00:00</unlock_at>
+  <due_at>2017-04-19T03:59:00</due_at>
+  <shuffle_answers>false</shuffle_answers>
+  <scoring_policy>keep_highest</scoring_policy>
+  <hide_results></hide_results>
+  <quiz_type>assignment</quiz_type>
+  <points_possible>66.0</points_possible>
+  <require_lockdown_browser>false</require_lockdown_browser>
+  <require_lockdown_browser_for_results>false</require_lockdown_browser_for_results>
+  <require_lockdown_browser_monitor>false</require_lockdown_browser_monitor>
+  <lockdown_browser_monitor_data></lockdown_browser_monitor_data>
+  <show_correct_answers>true</show_correct_answers>
+  <anonymous_submissions>false</anonymous_submissions>
+  <could_be_locked>false</could_be_locked>
+  <disable_timer_autosubmission>false</disable_timer_autosubmission>
+  <allowed_attempts>1</allowed_attempts>
+  <one_question_at_a_time>false</one_question_at_a_time>
+  <cant_go_back>false</cant_go_back>
+  <available>true</available>
+  <one_time_results>false</one_time_results>
+  <show_correct_answers_last_attempt>false</show_correct_answers_last_attempt>
+  <only_visible_to_overrides>false</only_visible_to_overrides>
+  <module_locked>false</module_locked>
+  <assignment identifier="ib2f831c3128428f8caf10e757b5f463e">
+    <title>Form A (VR) Gauss Revised</title>
+    <due_at>2017-04-19T03:59:00</due_at>
+    <lock_at>2017-04-19T03:59:00</lock_at>
+    <unlock_at>2017-03-02T05:00:00</unlock_at>
+    <module_locked>false</module_locked>
+    <all_day_date>2017-04-18</all_day_date>
+    <peer_reviews_due_at>2017-04-19T03:59:00</peer_reviews_due_at>
+    <workflow_state>published</workflow_state>
+    <assignment_overrides>
+    </assignment_overrides>
+    <quiz_identifierref>i6bc39d420ceaa443381523a895f59d65</quiz_identifierref>
+    <allowed_extensions></allowed_extensions>
+    <has_group_category>false</has_group_category>
+    <points_possible>66.0</points_possible>
+    <grading_type>points</grading_type>
+    <all_day>true</all_day>
+    <submission_types>online_quiz</submission_types>
+    <position>14</position>
+    <turnitin_enabled>false</turnitin_enabled>
+    <vericite_enabled>false</vericite_enabled>
+    <peer_review_count>0</peer_review_count>
+    <peer_reviews>false</peer_reviews>
+    <automatic_peer_reviews>false</automatic_peer_reviews>
+    <anonymous_peer_reviews>false</anonymous_peer_reviews>
+    <grade_group_students_individually>false</grade_group_students_individually>
+    <freeze_on_copy>false</freeze_on_copy>
+    <omit_from_final_grade>false</omit_from_final_grade>
+    <hide_in_gradebook>false</hide_in_gradebook>
+    <intra_group_peer_reviews>false</intra_group_peer_reviews>
+    <only_visible_to_overrides>false</only_visible_to_overrides>
+    <post_to_sis>false</post_to_sis>
+    <moderated_grading>false</moderated_grading>
+    <grader_count>0</grader_count>
+    <grader_comments_visible_to_graders>true</grader_comments_visible_to_graders>
+    <anonymous_grading>false</anonymous_grading>
+    <graders_anonymous_to_graders>false</graders_anonymous_to_graders>
+    <grader_names_visible_to_final_grader>true</grader_names_visible_to_final_grader>
+    <anonymous_instructor_annotations>false</anonymous_instructor_annotations>
+    <post_policy>
+      <post_manually>false</post_manually>
+    </post_policy>
+  </assignment>
+  <assignment_group_identifierref>i472e2f3f13d917ca5ce010d2ee4033ae</assignment_group_identifierref>
+  <assignment_overrides>
+  </assignment_overrides>
+</quiz>

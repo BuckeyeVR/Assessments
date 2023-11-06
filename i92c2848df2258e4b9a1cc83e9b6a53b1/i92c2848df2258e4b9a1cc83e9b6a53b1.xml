@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="i92c2848df2258e4b9a1cc83e9b6a53b1" title="Unnamed Quiz">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="i1090df4a6b1cbdc3cdb5e8796e547d25" title="Question_Gauss_SphereDist">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>84711,99545,3104,37041</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;
+&lt;p&gt;Consider the spherical charge distribution below (a positive charge Q distributed uniformly throughout the volume of a sphere of radius R, centered on the origin). You need to choose a Guassian surface such that Gauss’s Law will be useful (with a reasonable amount of work) in finding information about the electric field. Which of the following statements is most accurate about choosing a USEFUL Gaussian surface?&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;img src="$IMS-CC-FILEBASE$/Static_Gauss_SphereDist.png" alt="Static_Gauss_SphereDist.png"&gt;&lt;/p&gt;
+&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="84711">
+                <material>
+                  <mattext texttype="text/plain">No answer text provided.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="99545">
+                <material>
+                  <mattext texttype="text/plain">No answer text provided.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3104">
+                <material>
+                  <mattext texttype="text/plain">No answer text provided.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="37041">
+                <material>
+                  <mattext texttype="text/plain">No answer text provided.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">84711</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ib9e5e2ed21c9c5ef30adc3a12bbe827b" title="Question">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>94424,28941,69863,51628</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>if47b767d37e06559ff801f2d253307ba</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;img src="$IMS-CC-FILEBASE$/Static_3D_Figures_Gauss_Rod_SqrSurf.png" alt="Static_3D_Figures_Gauss_Rod_SqrSurf.png"&gt;&lt;img src="$IMS-CC-FILEBASE$/Static_3D_Figures_Gauss_Rod_SqrSurf1.png" alt="Static_3D_Figures_Gauss_Rod_SqrSurf1.png"&gt;&lt;img src="$IMS-CC-FILEBASE$/Static_3D_Figures_Gauss_Rod_SqrSurf2.png" alt="Static_3D_Figures_Gauss_Rod_SqrSurf2.png"&gt;&lt;img src="$IMS-CC-FILEBASE$/Static_3D_Figures_Gauss_Rod_SqrSurf3.png" alt="Static_3D_Figures_Gauss_Rod_SqrSurf3.png"&gt;&lt;img src="$IMS-CC-FILEBASE$/Static_3D_Figures_Gauss_Rod_SqrSurf4.png" alt="Static_3D_Figures_Gauss_Rod_SqrSurf4.png"&gt;&lt;img src="$IMS-CC-FILEBASE$/Static_3D_Figures_Gauss_Rod_SqrSurf5.png" alt="Static_3D_Figures_Gauss_Rod_SqrSurf5.png"&gt;&lt;img src="$IMS-CC-FILEBASE$/Static_3D_Figures_Gauss_plate_CylSurf.png" alt="Static_3D_Figures_Gauss_plate_CylSurf.png"&gt;&lt;img src="$IMS-CC-FILEBASE$/Static_3D_Figures_Gauss_plate_CylSurf_trimmed.png" alt="Static_3D_Figures_Gauss_plate_CylSurf_trimmed.png" width="433" height="354"&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="94424">
+                <material>
+                  <mattext texttype="text/plain">No answer text provided.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="28941">
+                <material>
+                  <mattext texttype="text/plain">No answer text provided.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="69863">
+                <material>
+                  <mattext texttype="text/plain">No answer text provided.</mattext>
+                </material>
+              </response_label>
+              <response_label ident="51628">
+                <material>
+                  <mattext texttype="text/plain">No answer text provided.</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">94424</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>

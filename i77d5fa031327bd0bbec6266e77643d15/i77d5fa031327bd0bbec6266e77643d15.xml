@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questestinterop xmlns="http://www.imsglobal.org/xsd/ims_qtiasiv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/ims_qtiasiv1p2 http://www.imsglobal.org/xsd/ims_qtiasiv1p2p1.xsd">
+  <assessment ident="i77d5fa031327bd0bbec6266e77643d15" title="Physics 1251 Calculus Survey">
+    <qtimetadata>
+      <qtimetadatafield>
+        <fieldlabel>cc_maxattempts</fieldlabel>
+        <fieldentry>1</fieldentry>
+      </qtimetadatafield>
+    </qtimetadata>
+    <section ident="root_section">
+      <item ident="i51d581f92435bd7bba044d4b8aa10fd0" title="Velocity Time Integral">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>7212,1032,7827,4439,3542</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>i3b88af2649b3028153bf059414606a17</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;A car is traveling in a straight line. Between times &lt;img class="equation_image" title="t=t_1" src="https://osu.instructure.com/equation_images/t%253Dt_1" alt="t=t_1"&gt;&amp;nbsp;and &lt;img class="equation_image" title="t=t_2" src="https://osu.instructure.com/equation_images/t%253Dt_2" alt="t=t_2"&gt;&amp;nbsp;(in seconds), it has velocity &lt;img class="equation_image" title="v" src="https://osu.instructure.com/equation_images/v" alt="v"&gt;&amp;nbsp;(in meters/second).&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;How would you rank your familiarity with the following quantity?&lt;/span&gt;&amp;nbsp;&lt;img class="equation_image" style="display: block; margin-left: auto; margin-right: auto;" title="\int^{t_2}_{t_1} vdt" src="https://osu.instructure.com/equation_images/%255Cint%255E%257Bt_2%257D_%257Bt_1%257D%2520vdt" alt="\int^{t_2}_{t_1} vdt"&gt;&lt;/p&gt;
+&lt;p&gt;1 = "Not at all familiar with this quantity"&lt;/p&gt;
+&lt;p&gt;5 = "Very familiar with this quantity"&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7212">
+                <material>
+                  <mattext texttype="text/plain">1</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1032">
+                <material>
+                  <mattext texttype="text/plain">2</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7827">
+                <material>
+                  <mattext texttype="text/plain">3</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4439">
+                <material>
+                  <mattext texttype="text/plain">4</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3542">
+                <material>
+                  <mattext texttype="text/plain">5</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7212</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="i154501c86238bde44cf151ae70ef0442" title="Volume Charge Density Area Displacement Integral">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>6247,5688,2882,2749,3104</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>i1b0a2acdc267b0e7a3bd53ec047c4786</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;A solid, charged cylinder with radius has a volume charge density &lt;img class="equation_image" title="\rho" src="https://osu.instructure.com/equation_images/%255Crho" alt="\rho"&gt;&amp;nbsp;(in Coulombs/meter&lt;sup&gt;3&lt;/sup&gt;) and lies along the &lt;img class="equation_image" title="x" src="https://osu.instructure.com/equation_images/x" alt="x"&gt;-axis &lt;span&gt;between&amp;nbsp;&lt;/span&gt;&lt;img class="equation_image" title="x=x_1" src="https://osu.instructure.com/equation_images/x%253Dx_1" alt="x=x_1"&gt;&lt;span&gt;&amp;nbsp;and&amp;nbsp;&lt;/span&gt;&lt;img class="equation_image" title="x=x_2" src="https://osu.instructure.com/equation_images/x%253Dx_2" alt="x=x_2"&gt;&lt;span&gt;&amp;nbsp;(in meters).&lt;/span&gt; The charge density varies only along the length of the cylinder (&lt;em&gt;i.e.&lt;/em&gt;, from left to right).&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;How would you rank your familiarity with the following quantity?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="equation_image" style="display: block; margin-left: auto; margin-right: auto;" title="\int^{x_2}_{x_1}\rho\pi R^2 dx" src="https://osu.instructure.com/equation_images/%255Cint%255E%257Bx_2%257D_%257Bx_1%257D%255Crho%255Cpi%2520R%255E2%2520dx" alt="\int^{x_2}_{x_1}\rho\pi R^2 dx"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;1 = "Not at all familiar with this quantity"&lt;/p&gt;
+&lt;p&gt;5 = "Very familiar with this quantity"&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="6247">
+                <material>
+                  <mattext texttype="text/plain">1</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5688">
+                <material>
+                  <mattext texttype="text/plain">2</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2882">
+                <material>
+                  <mattext texttype="text/plain">3</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2749">
+                <material>
+                  <mattext texttype="text/plain">4</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3104">
+                <material>
+                  <mattext texttype="text/plain">5</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">6247</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ifa79155a8482a7bc54361f85c0eeb217" title="Pressure Area Integral">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8084,43,5940,9505,4516</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>if0279c45c135cddeea319f7a77a909a7</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;A dam with a a horizontal length&lt;img class="equation_image" title="L" src="https://osu.instructure.com/equation_images/L" alt="L" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;L&lt;/mi&gt;&lt;/math&gt;"&gt;&amp;nbsp;(in meters) stands vertically on&amp;nbsp;the&amp;nbsp;&lt;img class="equation_image" title="y" src="https://osu.instructure.com/equation_images/y" alt="y" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;/math&gt;"&gt;-axis. The water behind the dam exerts a pressure&amp;nbsp;&lt;img class="equation_image" title="P" src="https://osu.instructure.com/equation_images/P" alt="P" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;P&lt;/mi&gt;&lt;/math&gt;"&gt;&amp;nbsp;(in Newtons/meter&lt;sup&gt;&lt;span&gt;2&lt;/span&gt;&lt;/sup&gt;)&amp;nbsp;on the dam's surface between heights&amp;nbsp;&lt;img class="equation_image" title="y=y_1" src="https://osu.instructure.com/equation_images/y%253Dy_1" alt="y=y_1" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;"&gt;&amp;nbsp;and &amp;nbsp;&lt;img class="equation_image" title="y=y_2" src="https://osu.instructure.com/equation_images/y%253Dy_2" alt="y=y_2" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;"&gt;&amp;nbsp;(in meters)&amp;nbsp;.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;How would you rank your familiarity with the following quantity?&lt;br&gt;&lt;img class="equation_image" style="display: block; margin-left: auto; margin-right: auto;" title="\int^{y_2}_{y_1}PLdy" src="https://osu.instructure.com/equation_images/%255Cint%255E%257By_2%257D_%257By_1%257DPLdy" alt="\int^{y_2}_{y_1}PLdy" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;msubsup&gt;&lt;mo&gt;&amp;amp;Integral;&lt;/mo&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;/msubsup&gt;&lt;mi&gt;P&lt;/mi&gt;&lt;mi&gt;L&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;y&lt;/mi&gt;&lt;/math&gt;"&gt;&lt;/p&gt;
+&lt;p&gt;1 = "Not at all familiar with this quantity"&lt;/p&gt;
+&lt;p&gt;5 = "Very familiar with this quantity"&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8084">
+                <material>
+                  <mattext texttype="text/plain">1</mattext>
+                </material>
+              </response_label>
+              <response_label ident="43">
+                <material>
+                  <mattext texttype="text/plain">2</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5940">
+                <material>
+                  <mattext texttype="text/plain">3</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9505">
+                <material>
+                  <mattext texttype="text/plain">4</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4516">
+                <material>
+                  <mattext texttype="text/plain">5</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8084</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="i69dde5e3846abaea1edf7098d921e184" title="Acceleration Time Integral 1251">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>7290,3705,3143,4579,2069</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>ia3cb9e843d38d61e135289d813b5e487</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;An electron in a magnetic field experiences an acceleration &lt;img class="equation_image" title="a" src="https://osu.instructure.com/equation_images/a" alt="a"&gt;&amp;nbsp;(in meters/second&lt;sup&gt;2&lt;/sup&gt;) between times&amp;nbsp;&lt;img class="equation_image" title="t=t_1" src="https://osu.instructure.com/equation_images/t%253Dt_1" alt="t=t_1" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;"&gt;&amp;nbsp;and&amp;nbsp;&lt;img class="equation_image" title="t=t_2" src="https://osu.instructure.com/equation_images/t%253Dt_2" alt="t=t_2" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;"&gt;&amp;nbsp;(in seconds).&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;How would you rank your familiarity with the following quantity?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="equation_image" style="display: block; margin-left: auto; margin-right: auto;" title="\int^{t_2}_{t_1}adt" src="https://osu.instructure.com/equation_images/%255Cint%255E%257Bt_2%257D_%257Bt_1%257Dadt" alt="\int^{t_2}_{t_1}adt" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;msubsup&gt;&lt;mo&gt;&amp;amp;Integral;&lt;/mo&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;/msubsup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/math&gt;"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;1 = "Not at all familiar with this quantity"&lt;/p&gt;
+&lt;p&gt;5 = "Very familiar with this quantity"&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="7290">
+                <material>
+                  <mattext texttype="text/plain">1</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3705">
+                <material>
+                  <mattext texttype="text/plain">2</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3143">
+                <material>
+                  <mattext texttype="text/plain">3</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4579">
+                <material>
+                  <mattext texttype="text/plain">4</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2069">
+                <material>
+                  <mattext texttype="text/plain">5</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">7290</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ied34ae253210f3cd7449479cddff08b3" title="Force Displacement Integral 1251">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>8871,7703,1351,1045,7498</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>i2134dfc8602d0d722bd217f6fe9841b4</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;A particle with charge &lt;img class="equation_image" title="q" src="https://osu.instructure.com/equation_images/q" alt="q"&gt;&amp;nbsp;is placed on the &lt;img class="equation_image" title="x" src="https://osu.instructure.com/equation_images/x" alt="x"&gt;-axis in an electric field &lt;img class="equation_image" title="E" src="https://osu.instructure.com/equation_images/E" alt="E"&gt;. The force on the charged particle is &lt;img class="equation_image" title="F=qE" src="https://osu.instructure.com/equation_images/F%253DqE" alt="F=qE"&gt;&amp;nbsp;(in Newtons) between positions &lt;img class="equation_image" title="x=x_1" src="https://osu.instructure.com/equation_images/x%253Dx_1" alt="x=x_1"&gt;&amp;nbsp;and &lt;img class="equation_image" title="x=x_2" src="https://osu.instructure.com/equation_images/x%253Dx_2" alt="x=x_2"&gt;&amp;nbsp;(in meters).&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;How would you rank your familiarity with the following quantity?&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" style="display: block; margin-left: auto; margin-right: auto;" title="\int^{x_2}_{x_1}qEdx" src="https://osu.instructure.com/equation_images/%255Cint%255E%257Bx_2%257D_%257Bx_1%257DqEdx" alt="\int^{x_2}_{x_1}qEdx"&gt;&lt;/p&gt;
+&lt;p&gt;1 = "Not at all familiar with this quantity"&lt;/p&gt;
+&lt;p&gt;5 = "Very familiar with this quantity"&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="8871">
+                <material>
+                  <mattext texttype="text/plain">1</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7703">
+                <material>
+                  <mattext texttype="text/plain">2</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1351">
+                <material>
+                  <mattext texttype="text/plain">3</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1045">
+                <material>
+                  <mattext texttype="text/plain">4</mattext>
+                </material>
+              </response_label>
+              <response_label ident="7498">
+                <material>
+                  <mattext texttype="text/plain">5</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">8871</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="i22e68403e9fe144c20cda374b256ccb1" title="Acceleration Time Integral 1250">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>5582,3608,686,4897,710</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>i11d4b29645b874d1806c45972c6c555e</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;A toy is suddenly pulled across the floor. Between times&amp;nbsp;&lt;img class="equation_image" title="t=t_1" src="https://osu.instructure.com/equation_images/t%253Dt_1" alt="t=t_1" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;"&gt;&amp;nbsp;and&amp;nbsp;&lt;img class="equation_image" title="t=t_2" src="https://osu.instructure.com/equation_images/t%253Dt_2" alt="t=t_2" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;"&gt;&amp;nbsp;(in seconds), the acceleration of the toy is&amp;nbsp;&lt;img class="equation_image" title="a" src="https://osu.instructure.com/equation_images/a" alt="a" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;/math&gt;"&gt;&amp;nbsp;(in meters/second&lt;sup&gt;2&lt;/sup&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;How would you rank your familiarity with the following quantity?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" style="display: block; margin-left: auto; margin-right: auto;" title="\int^{t_2}_{t_1}adt" src="https://osu.instructure.com/equation_images/%255Cint%255E%257Bt_2%257D_%257Bt_1%257Dadt" alt="\int^{t_2}_{t_1}adt" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;msubsup&gt;&lt;mo&gt;&amp;amp;Integral;&lt;/mo&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;/msubsup&gt;&lt;mi&gt;a&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;t&lt;/mi&gt;&lt;/math&gt;"&gt;&lt;/p&gt;
+&lt;p&gt;1 = "Not at all familiar with this quantity"&lt;/p&gt;
+&lt;p&gt;5 = "Very familiar with this quantity"&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="5582">
+                <material>
+                  <mattext texttype="text/plain">1</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3608">
+                <material>
+                  <mattext texttype="text/plain">2</mattext>
+                </material>
+              </response_label>
+              <response_label ident="686">
+                <material>
+                  <mattext texttype="text/plain">3</mattext>
+                </material>
+              </response_label>
+              <response_label ident="4897">
+                <material>
+                  <mattext texttype="text/plain">4</mattext>
+                </material>
+              </response_label>
+              <response_label ident="710">
+                <material>
+                  <mattext texttype="text/plain">5</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">5582</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="ibb9019cc1e0be479e229207b0835d828" title="Linear Charge Density Displacement Integral">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>4656,5778,1967,8741,2859</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>i70e9fe7342b5d6eafa9486536c49b523</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;A wire has a linear charge density &lt;img class="equation_image" title="\lambda" src="https://osu.instructure.com/equation_images/%255Clambda" alt="\lambda"&gt;&amp;nbsp;(in Coulombs/meter) and lies along the &lt;img class="equation_image" title="x" src="https://osu.instructure.com/equation_images/x" alt="x"&gt;-axis between&amp;nbsp;&lt;img class="equation_image" title="x=x_1" src="https://osu.instructure.com/equation_images/x%253Dx_1" alt="x=x_1"&gt;&amp;nbsp;and&amp;nbsp;&lt;img class="equation_image" title="x=x_2" src="https://osu.instructure.com/equation_images/x%253Dx_2" alt="x=x_2"&gt;&amp;nbsp;(in meters).&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;How would you rank your familiarity with the following quantity?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="equation_image" style="display: block; margin-left: auto; margin-right: auto;" title="\int^{x_2}_{x_1}\lambda dx" src="https://osu.instructure.com/equation_images/%255Cint%255E%257Bx_2%257D_%257Bx_1%257D%255Clambda%2520dx" alt="\int^{x_2}_{x_1}\lambda dx"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;1 = "Not at all familiar with this quantity"&lt;/p&gt;
+&lt;p&gt;5 = "Very familiar with this quantity"&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="4656">
+                <material>
+                  <mattext texttype="text/plain">1</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5778">
+                <material>
+                  <mattext texttype="text/plain">2</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1967">
+                <material>
+                  <mattext texttype="text/plain">3</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8741">
+                <material>
+                  <mattext texttype="text/plain">4</mattext>
+                </material>
+              </response_label>
+              <response_label ident="2859">
+                <material>
+                  <mattext texttype="text/plain">5</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">4656</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="i439b09080376f545b40c8ef16be5cb8f" title="Force Displacement Integral 1250">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>686,1802,6012,3368,1696</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>ie3915c5fb25a6d2055482c3006c8993f</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;A worker pushes a cart&amp;nbsp;along the&amp;nbsp;&lt;img class="equation_image" title="x" src="https://osu.instructure.com/equation_images/x" alt="x" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/math&gt;"&gt;-axis. Between positions&amp;nbsp;&lt;img class="equation_image" title="x=x_1" src="https://osu.instructure.com/equation_images/x%253Dx_1" alt="x=x_1" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;"&gt;&amp;nbsp;and&amp;nbsp;&lt;img class="equation_image" title="x=x_2" src="https://osu.instructure.com/equation_images/x%253Dx_2" alt="x=x_2" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;"&gt;&amp;nbsp;(in meters), the worker&amp;nbsp;applies a force&amp;nbsp;&lt;img class="equation_image" title="F" src="https://osu.instructure.com/equation_images/F" alt="F" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;F&lt;/mi&gt;&lt;/math&gt;"&gt;&amp;nbsp;(in Newtons).&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;How would you rank your familiarity with the following quantity?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" style="display: block; margin-left: auto; margin-right: auto;" title="\int^{x_2}_{x_1}Fdx" src="https://osu.instructure.com/equation_images/%255Cint%255E%257Bx_2%257D_%257Bx_1%257DFdx" alt="\int^{x_2}_{x_1}Fdx" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;msubsup&gt;&lt;mo&gt;&amp;amp;Integral;&lt;/mo&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;/msubsup&gt;&lt;mi&gt;F&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;x&lt;/mi&gt;&lt;/math&gt;"&gt;&lt;/p&gt;
+&lt;p&gt;1 = "Not at all familiar with this quantity"&lt;/p&gt;
+&lt;p&gt;5 = "Very familiar with this quantity"&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="686">
+                <material>
+                  <mattext texttype="text/plain">1</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1802">
+                <material>
+                  <mattext texttype="text/plain">2</mattext>
+                </material>
+              </response_label>
+              <response_label ident="6012">
+                <material>
+                  <mattext texttype="text/plain">3</mattext>
+                </material>
+              </response_label>
+              <response_label ident="3368">
+                <material>
+                  <mattext texttype="text/plain">4</mattext>
+                </material>
+              </response_label>
+              <response_label ident="1696">
+                <material>
+                  <mattext texttype="text/plain">5</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">686</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+      <item ident="i6ed05dad2fea67437e1b0912137d7724" title="A B Integral">
+        <itemmetadata>
+          <qtimetadata>
+            <qtimetadatafield>
+              <fieldlabel>question_type</fieldlabel>
+              <fieldentry>multiple_choice_question</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>points_possible</fieldlabel>
+              <fieldentry>1.0</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>original_answer_ids</fieldlabel>
+              <fieldentry>1512,9068,9021,8373,5136</fieldentry>
+            </qtimetadatafield>
+            <qtimetadatafield>
+              <fieldlabel>assessment_question_identifierref</fieldlabel>
+              <fieldentry>id5570276bf74141881d9bf23475911fd</fieldentry>
+            </qtimetadatafield>
+          </qtimetadata>
+        </itemmetadata>
+        <presentation>
+          <material>
+            <mattext texttype="text/html">&lt;div&gt;&lt;p&gt;A student is solving a physics&amp;nbsp;problem with unfamiliar variables&amp;nbsp;&lt;img class="equation_image" title="A" src="https://osu.instructure.com/equation_images/A" alt="A" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;/math&gt;"&gt;&amp;nbsp;&amp;nbsp;(in units of A) and&amp;nbsp;&lt;img class="equation_image" title="B" src="https://osu.instructure.com/equation_images/B" alt="B" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;B&lt;/mi&gt;&lt;/math&gt;"&gt;&amp;nbsp;(in units of B), which ranges from&amp;nbsp;&lt;img class="equation_image" title="B=B_1" src="https://osu.instructure.com/equation_images/B%253DB_1" alt="B=B_1" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;B&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;B&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;"&gt;&amp;nbsp;to&amp;nbsp;&lt;img class="equation_image" title="B=B_2" src="https://osu.instructure.com/equation_images/B%253DB_2" alt="B=B_2" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;mi&gt;B&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;msub&gt;&lt;mi&gt;B&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/math&gt;"&gt;.&amp;nbsp;The student knows that these symbols represent physical quantities with units, but the context is unknown.&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;How would you rank your familiarity with the following quantity?&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class="equation_image" style="display: block; margin-left: auto; margin-right: auto;" title="\int^{B_2}_{B_1}AdB" src="https://osu.instructure.com/equation_images/%255Cint%255E%257BB_2%257D_%257BB_1%257DAdB" alt="\int^{B_2}_{B_1}AdB" data-mathml="&lt;math xmlns=&amp;quot;http://www.w3.org/1998/Math/MathML&amp;quot; display=&amp;quot;inline&amp;quot;&gt;&lt;msubsup&gt;&lt;mo&gt;&amp;amp;Integral;&lt;/mo&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;B&lt;/mi&gt;&lt;mn&gt;1&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;mrow&gt;&lt;msub&gt;&lt;mi&gt;B&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msub&gt;&lt;/mrow&gt;&lt;/msubsup&gt;&lt;mi&gt;A&lt;/mi&gt;&lt;mi&gt;d&lt;/mi&gt;&lt;mi&gt;B&lt;/mi&gt;&lt;/math&gt;"&gt;&lt;/p&gt;
+&lt;p&gt;1 = "Not at all familiar with this quantity"&lt;/p&gt;
+&lt;p&gt;5 = "Very familiar with this quantity"&lt;/p&gt;&lt;/div&gt;</mattext>
+          </material>
+          <response_lid ident="response1" rcardinality="Single">
+            <render_choice>
+              <response_label ident="1512">
+                <material>
+                  <mattext texttype="text/plain">1</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9068">
+                <material>
+                  <mattext texttype="text/plain">2</mattext>
+                </material>
+              </response_label>
+              <response_label ident="9021">
+                <material>
+                  <mattext texttype="text/plain">3</mattext>
+                </material>
+              </response_label>
+              <response_label ident="8373">
+                <material>
+                  <mattext texttype="text/plain">4</mattext>
+                </material>
+              </response_label>
+              <response_label ident="5136">
+                <material>
+                  <mattext texttype="text/plain">5</mattext>
+                </material>
+              </response_label>
+            </render_choice>
+          </response_lid>
+        </presentation>
+        <resprocessing>
+          <outcomes>
+            <decvar maxvalue="100" minvalue="0" varname="SCORE" vartype="Decimal"/>
+          </outcomes>
+          <respcondition continue="No">
+            <conditionvar>
+              <varequal respident="response1">1512</varequal>
+            </conditionvar>
+            <setvar action="Set" varname="SCORE">100</setvar>
+          </respcondition>
+        </resprocessing>
+      </item>
+    </section>
+  </assessment>
+</questestinterop>
